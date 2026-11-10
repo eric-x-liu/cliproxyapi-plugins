@@ -59,9 +59,9 @@
       "name": "Cursor Provider",
       "description": "Call Cursor models through the official Cursor SDK Bridge.",
       "author": "UNICKCHENG",
-      "version": "2.1.1",
-      "repository": "https://github.com/UNICKCHENG/cliproxyapi-plugins",
-      "homepage": "https://github.com/UNICKCHENG/cliproxyapi-plugins/tree/main/auth-cursor",
+      "version": "2.1.1-fork.1",
+      "repository": "https://github.com/eric-x-liu/cliproxyapi-plugins",
+      "homepage": "https://github.com/eric-x-liu/cliproxyapi-plugins/tree/main/auth-cursor",
       "license": "MIT",
       "tags": [
         "provider"
@@ -72,37 +72,30 @@
           {
             "goos": "darwin",
             "goarch": "amd64",
-            "url": "https://github.com/UNICKCHENG/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1/auth-cursor_2.1.1_darwin_amd64.zip",
-            "sha256": "e60e5724d5c212f6d77f4bb42bd2a6d27d323f69bb5367b0f48337c37283400c",
-            "size": 4393237
-          },
-          {
-            "goos": "darwin",
-            "goarch": "arm64",
-            "url": "https://github.com/UNICKCHENG/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1/auth-cursor_2.1.1_darwin_arm64.zip",
-            "sha256": "33e8c2cf5129e4a0a52252f37c84704ab28f1a080b9384459138fcc14f9bf3d0",
-            "size": 4064886
+            "url": "https://github.com/eric-x-liu/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1-fork.1/auth-cursor_2.1.1-fork.1_darwin_amd64.zip",
+            "sha256": "5d22914c35ec6abba631222817332762a7bca44c341400ba5f907a5424f57e60",
+            "size": 4397653
           },
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://github.com/UNICKCHENG/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1/auth-cursor_2.1.1_linux_amd64.zip",
-            "sha256": "1a2f52a7431e491af0e1b9aa982bf8f196739234b9093c1617e06a23ae3df182",
-            "size": 7984426
+            "url": "https://github.com/eric-x-liu/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1-fork.1/auth-cursor_2.1.1-fork.1_linux_amd64.zip",
+            "sha256": "2681a3cf0771aa79862895b2c2c64a9b93fa40657e6a2159dea28569e0c41a16",
+            "size": 7986357
           },
           {
             "goos": "linux",
             "goarch": "arm64",
-            "url": "https://github.com/UNICKCHENG/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1/auth-cursor_2.1.1_linux_arm64.zip",
-            "sha256": "2e37846eff9834cc32aae629f27cd3a2d919651830da65e30e289982da0593a3",
-            "size": 7262283
+            "url": "https://github.com/eric-x-liu/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1-fork.1/auth-cursor_2.1.1-fork.1_linux_arm64.zip",
+            "sha256": "1df5fc78d0b57294bcebd67770f885e4ae9d77b6ef56cdc5262317eab95d994f",
+            "size": 7266794
           },
           {
             "goos": "windows",
             "goarch": "amd64",
-            "url": "https://github.com/UNICKCHENG/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1/auth-cursor_2.1.1_windows_amd64.zip",
-            "sha256": "4f90940aa720836743234071a892377966d9d403dc34948f72e010081fa72245",
-            "size": 7806711
+            "url": "https://github.com/eric-x-liu/cliproxyapi-plugins/releases/download/auth-cursor-v2.1.1-fork.1/auth-cursor_2.1.1-fork.1_windows_amd64.zip",
+            "sha256": "8bd01beb28a054b74b368751cc0a46172b95f4fa5d0a59cd7e0d0ea4db4008f1",
+            "size": 7808139
           }
         ]
       }
