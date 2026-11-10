@@ -22,10 +22,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - runner: macos-14
-            goos: darwin
-            goarch: arm64
-            extension: dylib
+          # Fork build: GitHub no longer offers macos-14 runners, and this fork only needs
+          # linux/amd64, so the darwin/arm64 build is skipped here.
           # macos-13 was retired in Dec 2025. macos-15-intel is the hosted x86_64 replacement.
           - runner: macos-15-intel
             goos: darwin
